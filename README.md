@@ -26,7 +26,7 @@ pip install requirements.txt
 ```
 
 ## Usage
-See [Example Jupyter Notebooks](https://github.com/jaca230/RP_pico_W_board_remote_controller).
+See [Example Jupyter Notebooks](https://github.com/jaca230/RP_pico_W_board_remote_controller/tree/main/examples).
 
 
 ## Configuration
