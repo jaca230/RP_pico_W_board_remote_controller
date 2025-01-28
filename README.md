@@ -12,9 +12,11 @@ The **Pico Board Remote Controller** is a Python-based library for controlling t
 
 ## Installation
 
-To use the Pico Board Remote Controller, you need to install the following Python dependencies:
+### Board Files
+Upload the board files to your pico following the README on the [board files github page](https://github.com/jaca230/RP_pico_W_board_interface)
 
 ### Dependencies
+To use the Pico Board Remote Controller, you need to install the following Python dependencies:
 
 - **requests**: For HTTP communication when using Wi-Fi mode.
 - **pyserial**: For serial communication when using the serial mode.
