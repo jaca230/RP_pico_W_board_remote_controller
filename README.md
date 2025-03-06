@@ -30,6 +30,8 @@ pip install requirements.txt
 ## Usage
 See [Example Jupyter Notebooks](https://github.com/jaca230/RP_pico_W_board_remote_controller/tree/main/examples).
 
+Note that the `WebCommandSender` and `SerialCommandSender` examples are interchangable. I.e. `WebCommandSender.send_command(args*)` and `SerialCommandSender.send_command(args*)` perform the exact same functionality on the board, the only difference is how the information gets communciated to the board.
+
 
 ## Configuration
 

@@ -33,6 +33,9 @@ class SerialController:
         self.serial_conn.flush()
         self.serial_conn.write(f"{command}\r".encode())
 
+        if self.debug:
+            print(f"Command sent: {command}")
+
         # Read the response until ">>>"
         response = self.serial_conn.read_until(b'>>>').decode()  # Using byte string to specify the delimiter
 
